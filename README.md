@@ -16,3 +16,7 @@ A GitHub Actions workflow rebuilds and redeploys it daily at midnight US Eastern
 4. Add the feed URL to your RSS reader.
 
 Local test: `python3 build_feed.py` writes `public/feed.xml`.
+
+## License
+
+[MIT](LICENSE). This covers the feed-building code only; the manga translations and catalog data belong to UMD Translations.
