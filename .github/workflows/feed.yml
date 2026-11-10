@@ -1,4 +1,4 @@
-name: Build and deploy RSS feed
+name: Build and deploy Atom feed
 
 on:
   schedule:
