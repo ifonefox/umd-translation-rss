@@ -2,8 +2,9 @@ name: Build and deploy Atom feed
 
 on:
   schedule:
-    # Midnight US Eastern (EST). Cron is UTC-only, so this is 1am during EDT.
-    - cron: "0 5 * * *"
+    # Every other hour (even-numbered hours)
+    - cron: "0 */2 * * *"
+      timezone: "America/New_York"
   workflow_dispatch:
   push:
     branches: [main]
